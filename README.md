@@ -1,4 +1,4 @@
-# RSA in JavaScript
+# RSA in JavaScript compatible with CommonJS, AMD, CMD, and native JS
 
 test:
   
