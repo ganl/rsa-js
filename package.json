@@ -1,5 +1,5 @@
 {
-  "name": "rsa",
+  "name": "js-rsa",
   "version": "1.0.0",
   "description": "RSA In JavaScript",
   "main": "index.js",
