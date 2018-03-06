@@ -1,0 +1,10 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test rsa encrypt in js",
+  "main": "test.js",
+  "license": "MIT",
+  "dependencies": {
+    "buffer": "^5.1.0"
+  }
+}

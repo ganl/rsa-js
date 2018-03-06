@@ -4,7 +4,9 @@
   "description": "RSA In JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-en": "node test/test.js",
+    "test-de": "php test/decode.php"
   },
   "repository": {
     "type": "git",
@@ -12,6 +14,7 @@
   },
   "keywords": [
     "RSA",
+    "rsajs",
     "JS"
   ],
   "author": "ganl",
@@ -19,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/ganl/rsa-js/issues"
   },
-  "homepage": "https://github.com/ganl/rsa-js#readme"
+  "homepage": "https://github.com/ganl/rsa-js#readme",
+  "dependencies": {
+    "buffer": "^5.1.0"
+  }
 }
