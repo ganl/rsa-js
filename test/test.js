@@ -1,6 +1,5 @@
 var rsa = require('../index');
 
-rsa.setMaxDigits(262);
 var keypair = new rsa.RSAKeyPair(
 		// Public exponent extracted from private_key.pem using
 		// openssl rsa -inform PEM -text -noout < private_key.pem

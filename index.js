@@ -1310,6 +1310,8 @@
         encryptedString: encryptedString
     };
 
+    RSA.setMaxDigits(262)
+
     if (typeof module !== 'undefined' && typeof exports === 'object') {
         module.exports = RSA;
     } else if (typeof define === 'function' && (define.amd || define.cmd)) {
