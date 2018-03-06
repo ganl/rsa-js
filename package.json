@@ -1,6 +1,6 @@
 {
   "name": "js-rsa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "RSA In JavaScript",
   "main": "index.js",
   "scripts": {
@@ -23,8 +23,5 @@
   "bugs": {
     "url": "https://github.com/ganl/rsa-js/issues"
   },
-  "homepage": "https://github.com/ganl/rsa-js#readme",
-  "dependencies": {
-    "buffer": "^5.1.0"
-  }
+  "homepage": "https://github.com/ganl/rsa-js#readme"
 }
