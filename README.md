@@ -2,18 +2,18 @@
 
 test:
   
-```
+```shell
     npm run test-init
-    
-    
+
+
     npm run test-en
-    
-    
+
+
     npm run test-de
 ```
 
 Test directory contains examples
-    
+
 usage:
 
 
@@ -80,6 +80,14 @@ The hex value, e.g. "10001", is provided to the JavaScript library without the l
 `openssl rsa -inform PEM -modulus -noout < private_key.pem`
 
 After removing the "Modulus=" prefix, the rest of the value can be directly used by the JavaScript library, as you can see in the source for this webpage.
+
+Using a third-party public key: If someone else gives you their public key file in PEM format, you can extract the public exponent and the modulus using the same commands, but with the additional -pubin flag. To print the public exponent, use:
+
+`openssl rsa -pubin -inform PEM -text -noout < public_key.pem`
+
+And to print the modulus, use:
+
+`openssl rsa -pubin -inform PEM -modulus -noout < public_key.pem`
 
 
 ## decrypt
